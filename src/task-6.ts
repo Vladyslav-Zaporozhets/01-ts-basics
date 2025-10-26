@@ -1,5 +1,5 @@
-function getFirstElement<T>(arr: T[]): T | undefined {
-  return arr[0];
+function getFirstElement<T>(arr: T[]): T {
+  return arr[0]!;
 }
 
 getFirstElement<number>([1, 2, 3]);
